@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Bookstore</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Sunset Bookstore</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sign up</h2>
+
+            <form action="thanks.html">
+
+                <div>
+                    <label for="ctrl-name">Name</label>
+                    <input id="ctrl-name" name="name" type="text" placeholder="Type your name">
+                </div>
+
+                <div>
+                    <label for="ctrl-email">Email</label>
+                    <input id="ctrl-email" name="email" type="email" placeholder="Type your email">
+                </div>
+
+                <div>
+                    <label for="ctrl-password">Password</label>
+                    <input id="ctrl-password" name="password" type="password" placeholder="Create your password">
+                </div>
+
+                <div>
+                    <label for="ctrl-bookclub">Would you like to join our book club?</label>
+                    <select name="bookclub" id="ctrl-bookclub">
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                        <option value="3">Maybe in the future</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="ctrl-author">Are you a Author? Did you write books?</label>
+                    <div id="ctrl-author">
+                    <input type="radio" name="author" id="ctrl-author-1">
+                    <label for="ctrl-author-1">Yes</label>
+                    <input type="radio" name="author" id="ctrl-author-2">
+                    <label for="ctrl-author-2">No</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="ctrl-genres">What are your favorite book genres?</label>
+                    <div id="ctrl-genres">
+                        <input id="ctrl-genres-romance" name="genre-1" type="checkbox">
+                        <label for="ctrl-genres-romance">Romance</label>
+                        <input id="ctrl-genres-mystery" name="genre-2" type="checkbox">
+                        <label for="ctrl-genres-mystery">Mystery</label>
+                        <input id="ctrl-genres-fiction" name="genre-3" type="checkbox">
+                        <label for="ctrl-genres-fiction">Fiction</label>
+                        <input id="ctrl-genres-non-fiction" name="genre-4" type="checkbox">
+                        <label for="ctrl-genres-non-fiction">Non-Fiction</label>
+                        <input id="ctrl-genres-science-fiction" name="genre-5" type="checkbox">
+                        <label for="ctrl-genres-science-fiction">Science-Fiction</label>
+                        <input id="ctrl-genres-other" name="genre-6" type="checkbox">
+                        <label for="ctrl-genres-other">Other</label>
+                    </div>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
