@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+#main-container{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    justify-content: center; /*this property applies to the main axis, aligning content vertically*/
+    align-items: center; /*this property applies to the cross axis, aligning content horizontally*/
+}
+
+.card{
+    background-color: aquamarine;
+    border: 1px solid red;
+    width: 90px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /*main axis becomes vertical*/
+    justify-content: center; /* aligns content along the main axis (vertical) */
+    align-items: center; /* aligns content along the cross axis (horizontal) */
+}
