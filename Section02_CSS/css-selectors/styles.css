@@ -1,8 +1,11 @@
-/* "*" Selects all elements*/
+/* "*" Selects and apply style to all elements*/
 *{
     font-size: 30px;
 }
 
+body{
+    margin: 0;
+}
 
 /*Select and apply style using the html tags (elements) as the selectors*/
 /*This will apply to all correspondent elements in the html file*/
@@ -24,7 +27,7 @@ h1:hover{
     color: blue;
 }
 
-/*Selects and apply style to all <img> elements inside a element with the card class*/
+/*Selects and apply style to all <img> elements inside elements with the "card" class*/
 .card img {
     width: 200px;
     height: 200px;
@@ -33,7 +36,7 @@ h1:hover{
 /*Select and apply style to a specific element in the html file using the id selector*/
 /*A id must be unique per html file*/
 #titles{
-    background-color:#f6ad6c;
+    background-color:#fbe7d5;
 }
 
 
