@@ -1,0 +1,16 @@
+.card img {
+    background-color: blueviolet;
+    /*size of the content*/
+    width: 200px;
+    height: 200px;
+    margin: 20px; /*space outside the element, which is between elements*/
+    border: 1px solid red; /* visible border between padding and margin */
+    padding: 20px; /*internal space between the content and border*/
+}
+
+#categories{
+    background-color: aquamarine;
+    margin: 10px 40px 20px 30px; /*sets the margin area on all four sides of the element - top, right, bottom, left*/
+}
+
+
