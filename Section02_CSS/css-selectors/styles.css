@@ -39,5 +39,13 @@ h1:hover{
     background-color:#fbe7d5;
 }
 
+.card{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    border: 1px solid brown;
+    text-align: center;
+}
+
 
 
