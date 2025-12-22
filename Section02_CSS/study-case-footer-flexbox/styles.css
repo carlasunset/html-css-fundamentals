@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+
 .container{
     width: 100%;
     max-width: 960px;
@@ -17,6 +22,14 @@
 
 }
 
+.generic-section h2{
+    font-size: 32px;
+}
+
+.generic-section p{
+    font-size: 24px;
+}
+
 .bg-brown{
     background-color: brown;
 }
@@ -26,13 +39,41 @@
 }
 
 .bg-beige{
+    background-color: bisque;
+}
+
+footer{
+    padding: 40px 20px;
+    min-height: 200px;
     background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+   
 }
 
-h2{
-    font-size: 32px;
+footer img{
+    width: 30px;
+    height: 30px;
 }
 
-p{
-    font-size: 24px;
+
+.footer-links-container a{
+    display: block;
+    text-align: center;
+}
+
+.footer-company-container p{
+    text-align: center;
+}
+
+.footer-company-container img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
