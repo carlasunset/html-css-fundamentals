@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.generic-section{
+    min-height: 300px;
+    padding: 40px 20px; 
+
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-orange{
+    background-color: #f6ad6c;
+}
+
+.bg-beige{
+    background-color: antiquewhite;
+}
+
+h2{
+    font-size: 32px;
+}
+
+p{
+    font-size: 24px;
+}
