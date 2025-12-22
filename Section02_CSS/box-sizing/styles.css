@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+
+    /* makes width and height include padding and border */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#main-container {
+    background-color: bisque;
+
+    /* limits the container width */
+    max-width: 960px;
+
+    /* centers the container horizontally */
+    margin: 0 auto;
+
+    display: flex;
+
+    /* allows items to move to the next line when there's no space */
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+
+    /* content size */
+    width: 280px;
+    height: 200px;
+
+    /* external spacing between cards */
+    margin: 20px;
+}
+
+/* total horizontal space: 280px + 20px + 20px = 320px */
+
+
+.card:hover {
+    /* border does NOT increase the element size because of box-sizing: border-box */
+    border: 2px solid red;
+}
