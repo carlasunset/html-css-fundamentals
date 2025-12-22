@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+:root{
+    --main-color: #205520;
+    --secondary-color: #552055;
+    --dark-gray: #666;
+    --light-gray: #ddd;
+    --color-white: #fff;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +24,7 @@ a:hover {
 
 header {
   min-height: 100px;
-  background-color: #205520;
+  background-color: var(--main-color);
   
 }
 
@@ -25,17 +34,17 @@ header {
 }
 
 .bg-gray {
- background-color: #ddd;
+ background-color: var(--light-gray);
 }
 
 .generic-section h2 {
-    color:#205520;
+    color:var(--main-color);
     font-size: 32px;
 }
 
 .generic-section p {
   font-size: 24px;
-  color: #666;;
+  color: var(--dark-gray);
 }
 
 .container {
@@ -53,11 +62,11 @@ header {
   height: 60px;
   padding: 20px;
   border-radius: 8px;
-  background-color: #552055;
-  color: #fff;
+  background-color: var(--secondary-color);
+  color: var(--color-white);
 }
 
 footer {
   min-height: 200px;
-  background-color: #552055;
+  background-color: var(--secondary-color);
 }
