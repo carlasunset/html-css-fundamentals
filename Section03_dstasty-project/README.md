@@ -1,0 +1,1 @@
+This project was built based on a Figma design using Dev Mode to inspect styles and layout.
