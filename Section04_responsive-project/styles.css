@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --white-color: #fff;
+    --header-footer-color: #2C3E50;
+    --bg-main-section: #1ABC9C;
+    --title-color: #2C3E50;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+nav,
+footer {
+    background-color: var(--header-footer-color);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav h1,
+nav li {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px;
+}
+
+li {
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+#main-section {
+    background-color: var(--bg-main-section);
+    text-align: center;
+    padding: 65px;
+    color: var(--white-color);
+}
+
+#main-section img {
+    margin-bottom: 20px;
+}
+
+#main-section h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#main-section p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#portfolio {
+    text-align: center;
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#portfolio h2 {
+    color: #2C3E50;
+    font-size: 48px;
+    padding: 60px;
+}
+
+#portfolio img {
+    width: 280px;
+    height: 200px;
+    flex-shrink: 0;
+    margin: 0 30px 30px 0;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer p {
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social-medias img {
+    width: 32px;
+    height: 32px;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
