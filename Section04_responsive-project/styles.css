@@ -14,7 +14,8 @@
     font-family: Montserrat;
 }
 
-a, a:hover{
+a,
+a:hover {
     color: unset;
     text-decoration: none;
 }
@@ -24,6 +25,7 @@ a, a:hover{
     height: 100px;
     width: 100%;
     padding: 20px;
+    display: flex;
     position: fixed;
 }
 
@@ -36,12 +38,12 @@ a, a:hover{
     align-items: center;
 }
 
-.nav-main a{
+.nav-main a {
     color: var(--white-color);
     text-transform: uppercase;
 }
 
-.nav-brand{
+.nav-brand {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 5px;
@@ -94,7 +96,7 @@ a, a:hover{
     text-align: center;
 }
 
-.portfolio-container{
+.portfolio-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -126,4 +128,38 @@ footer p {
     width: 32px;
     height: 32px;
     margin: 10px;
+}
+
+@media(min-width: 576px) {
+
+    html {
+        font-size: 20px;
+    }
+
+}
+
+@media(min-width: 768px) {
+
+    html {
+        font-size: 24px;
+    }
+
+    #portfolio img {
+        width: 280px;
+        height: 200px;
+    }
+
+    .nav-main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .nav-brand {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    .menu-items li {
+        font-size: 18px;
+    }
 }
