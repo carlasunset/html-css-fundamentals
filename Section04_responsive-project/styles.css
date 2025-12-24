@@ -20,6 +20,12 @@ a:hover {
     text-decoration: none;
 }
 
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .nav-container {
     background-color: var(--header-footer-color);
     height: 100px;
@@ -80,13 +86,6 @@ a:hover {
 #main-section p {
     font-size: 1rem;
     font-weight: 400;
-}
-
-#portfolio {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 60px;
 }
 
 #portfolio h2 {

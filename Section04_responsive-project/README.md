@@ -6,6 +6,6 @@
 - Non-responsive version
 - No additional wrapper divs at this stage
 - Future improvements:
-  - Add responsiveness
-  - Improve layout refinements
-  - Refactor structure if needed for styling
+  - Add responsiveness DONE ✅
+  - Improve layout refinements DONE ✅
+  - Refactor structure if needed for styling DONE ✅
