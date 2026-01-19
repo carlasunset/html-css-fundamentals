@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ========== RESET ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== BASE ========== */
+body {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #eceaea;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ========== HEADER ========== */
+#header {
+    background-color: #f7b600;
+    padding: 1rem;
+    text-align: center;
+}
+
+#logo,
+#navigation {
+    padding: 0.625rem;
+}
+
+#header a:link,
+#header a:visited {
+    color: #eceaea;
+    padding: 0.5rem 0.75rem;
+}
+
+#header a:hover {
+    color: #f7b600;
+    background-color: #eceaea;
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5rem;
+}
+
+#logo-highlight {
+    color: white;
+}
+
+/* ========== MAIN LAYOUT ========== */
+#main-content {
+    width: 58rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+/* ========== POSTS ========== */
+#posts {
+    width: 42rem;
+}
+
+.post {
+    background-color: white;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.post h2 {
+    color: #f7b600;
+}
+
+.post-date {
+    display: block;
+    font-size: 0.8rem;
+    padding-bottom: 0.625rem;
+}
+
+/* ========== SIDEBAR ========== */
+#sidebar {
+    width: 15rem;
+}
+
+.sidebar-section {
+    background-color: white;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
+}
+
+.sidebar-section h3 {
+    background-color: #ccc;
+    color: #565656;
+    padding: 0.313rem;
+}
+
+.sidebar-post {
+    font-size: 0.8rem;
+    padding: 0.313rem;
+}
+
+/* ========== FOOTER ========== */
+#footer {
+    width: 58rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ccc;
+    padding: 1rem;
+}
