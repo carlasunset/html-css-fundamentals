@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+/* ===== BASE ===== */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/* ===== GRID CONTAINER ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "hero-content hero-image"
+        "organizations-image organizations-content";
+    gap: 20px;
+    padding: 10px;
+}
+
+/* ===== HEADER ===== */
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navigation {
+    flex-grow: 1;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+/* ===== LINKS ===== */
+.navigation a:link,
+.navigation a:visited {
+    padding: 10px;
+    text-decoration: none;
+    color: #484848;
+}
+
+.navigation a:hover {
+    color: #0B5CFF;
+}
+
+/* ===== HERO SECTIONS ===== */
+#hero-content {
+    grid-area: hero-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero-image {
+    grid-area: hero-image;
+}
+
+#hero-image img,
+#organizations-image img {
+    max-width: 100%;
+}
+
+/* ===== ORGANIZATIONS SECTIONS ===== */
+#organizations-image {
+    grid-area: organizations-image;
+}
+
+#organizations-content {
+    grid-area: organizations-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ===== BUTTONS ===== */
+.button {
+    text-decoration: none;
+    color: #0B5CFF;
+    border: 2px solid #0B5CFF;
+    border-radius: 25px;
+    padding: 5px 30px;
+    align-self: flex-start;
+}
+
+.button:hover {
+    background: #d2e1ff;
+}
+
+.button.highlight {
+    background: #0B5CFF;
+    color: white;
+}
+
+.button.highlight:hover {
+    background: #2d73ff;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.highlight-text {
+    color: #0B5CFF;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #eae8e8;
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "hero-content"
+            "hero-image"
+            "organizations-image"
+            "organizations-content";
+    }
+
+    .header {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
